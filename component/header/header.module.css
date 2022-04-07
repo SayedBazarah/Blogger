@@ -1,0 +1,33 @@
+.header {
+  background-color: var(--color-grey-900);
+  color: rgb(255, 255, 255);
+}
+.header .container {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  max-width: 1366px;
+  color: white;
+}
+.logo a {
+  font-size: 1.4rem;
+  color: white;
+  font-weight: bold;
+}
+.links {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.links li {
+  padding: 0.2rem 1rem;
+}
+
+.links li a {
+  color: var(--color-grey-50);
+}
